@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestJam.Plugins", "TestJam.Plugins.csproj", "{F4F8E110-6779-5EBF-0A84-5F639145628E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestJam.Editor.Plugins", "TestJam.Editor.Plugins.csproj", "{3B8FF0AF-2C47-2E35-BCAD-133008F1FDF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4F8E110-6779-5EBF-0A84-5F639145628E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F8E110-6779-5EBF-0A84-5F639145628E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F8E110-6779-5EBF-0A84-5F639145628E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F8E110-6779-5EBF-0A84-5F639145628E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8FF0AF-2C47-2E35-BCAD-133008F1FDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8FF0AF-2C47-2E35-BCAD-133008F1FDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8FF0AF-2C47-2E35-BCAD-133008F1FDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8FF0AF-2C47-2E35-BCAD-133008F1FDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
