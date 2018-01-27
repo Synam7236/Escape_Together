@@ -640,9 +640,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 96486f1a-9fe2-4b0c-b3cd-660fd39226c1
-  projectName: TestJam
-  organizationId: pierre_l_f
+  cloudProjectId: 7b67a2d2-99f3-497f-80e6-cb99d36de840
+  projectName: TestJam (1)
+  organizationId: otor
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
