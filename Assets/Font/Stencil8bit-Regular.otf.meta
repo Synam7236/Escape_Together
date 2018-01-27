@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e29b94df3f394aa40b2ed82a0b2d0144
+timeCreated: 1517071574
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Stencil 8bit
+  fontNames:
+  - Stencil 8bit
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
