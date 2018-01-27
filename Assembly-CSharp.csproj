@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BlinkText_.cs" />
      <Compile Include="Assets\Scripts\ChangeSceneOrdi.cs" />
      <Compile Include="Assets\Scripts\GetText.cs" />
      <Compile Include="Assets\Scripts\LinkInputText.cs" />
