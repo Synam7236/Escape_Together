@@ -109,7 +109,11 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 15140
+=======
+  controlID: 1030
+>>>>>>> Stashed changes
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +137,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 15141
+=======
+  controlID: 1006
+>>>>>>> Stashed changes
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +165,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 15142
+=======
+  controlID: 1007
+>>>>>>> Stashed changes
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,10 +378,17 @@ MonoBehaviour:
     height: 439
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
+<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 7050}
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: ba2bfdfffa73feff7ae9ffff26eeffff76efffff6ef0ffff66f1ffffbcf3ffffb4f4ffffb0f5ffff04f9ffff00000000341c0300342503008a2b0300962d0300a6300300103a03006c4e030076530300a4600300e4630300
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 185600002656000022560000205600001e5600001c56000024560000285600001a560000
+    m_LastClickedID: 0
+    m_ExpandedIDs: feebffff9efbffff00000000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -420,14 +439,24 @@ MonoBehaviour:
     height: 439
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
+<<<<<<< Updated upstream
   lastFramingTime: 0
+=======
+  lastFramingTime: 110.35471551418647
+>>>>>>> Stashed changes
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: 25.867662, y: -0.83950067, z: 22.53439}
     speed: 2
     m_Value: {x: 25.867662, y: -0.83950067, z: 22.53439}
+=======
+    m_Target: {x: 49.23248, y: 14.769624, z: 13.710269}
+    speed: 2
+    m_Value: {x: 49.23248, y: 14.769624, z: 13.710269}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -451,6 +480,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< Updated upstream
     m_Target: {x: -0.46444526, y: 0.030293033, z: -0.015915219, w: -0.88495547}
     speed: 2
     m_Value: {x: -0.46444526, y: 0.030293033, z: -0.015915219, w: -0.8849554}
@@ -458,6 +488,15 @@ MonoBehaviour:
     m_Target: 27.2413
     speed: 2
     m_Value: 27.2413
+=======
+    m_Target: {x: -0.08402932, y: 0.6931077, z: 0.081888355, w: 0.7112209}
+    speed: 2
+    m_Value: {x: -0.08402932, y: 0.6931077, z: 0.081888355, w: 0.7112209}
+  m_Size:
+    m_Target: 38.771908
+    speed: 2
+    m_Value: 38.771908
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -535,19 +574,33 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< Updated upstream
     - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Materials
+=======
+    - Assets/Texture/Plafond
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Texture/Plafond
+>>>>>>> Stashed changes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\EDNA\Pierre Fontaine GA2\Unity\EscapeTogetherGameJam2018\Escape_Together
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_SelectedIDs: 66280000
     m_LastClickedID: 10342
     m_ExpandedIDs: 0000000034280000f22800002e2a000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: f2550000
+    m_LastClickedID: 22002
+    m_ExpandedIDs: 00000000b82700008428000086280000e829000000ca9a3bffffff7f
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -575,7 +628,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 0000000034280000f22800002e2a000000ca9a3bffffff7f
+=======
+    m_ExpandedIDs: 00000000b82700008428000086280000e829000000ca9a3bffffff7f
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -603,7 +660,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
+<<<<<<< Updated upstream
     m_ExpandedInstanceIDs: c6230000
+=======
+    m_ExpandedInstanceIDs: c62300004a680100
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
