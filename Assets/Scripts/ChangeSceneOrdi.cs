@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 public class ChangeSceneOrdi : MonoBehaviour {
     public void OnTriggerStay(Collider other)
     {
-       if (Input.GetKeyDown("e"))
+       if (Input.GetKeyDown("e") &&  other.tag == "Player")
         {
-            Debug.Log("Chargement");
+            //Debug.Log("Chargement");
             SceneManager.LoadScene("InterfaceOrdi");
-            Debug.Log("Fin");
+            //Debug.Log("Fin");
         }
 
     }

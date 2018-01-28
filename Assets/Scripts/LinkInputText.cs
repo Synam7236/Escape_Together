@@ -138,8 +138,8 @@ public class LinkInputText : MonoBehaviour {
             { "Anonyme: J'aurais bien aimé vous aider mais ma culture en d'auteur de theatre s'eleve à 0", "Anonyme: Shakespeare ça marche pas en tout cas, j'ai déjà essayé... Je suis même pas sur qu'il ait ecrit des pieces de theatre", "ça craint, vous savez quelquechose ? Je flippe et à cause de mon inculture sur ces dramaturges au theatre, je suis coincé comme vous j'imagine...", "Anonyme: Votre salle doit être sympa, enfin j'espere... Bon je divague allez chercher ce nom dramaturge", "Anonyme: Je vous ai déjà dit que j'étais claustro? J'ai déjà entendu dire que les dramaturges avait ce même problème" },
            { "Anonyme: J'ai jamais ete bon en maths perso,j'espere que vous vous serez meilleur que moi", "Anonyme: Le fait est qu'on est coincé ici surement pour un bon temps donc je vais taper des chiffres aleatoires", "Vous pensez que le mec qui nous a enferme s'amuse à nous regarder trouver des codes dans tous les coins?", "Anonyme: J'ai une caméra au-dessus de moi.... Faites ces maths vite, je me sens pas bien", "Anonyme: AZJRoaziirzajrpaoipoaziepirp. Oula desole j'ai ecrit sur le mauvais truc... Ouais bon j'ai pas grand chose pour m'amuser le temps que vous cherchez ce problème" },
             {"Anonyme: Un <<Code animal>> je sais pas si ça vous dit quelque chose","Anonyme: Allez on décrypte je sens qu'on a bientot fini","Anonyme: BIP BIIIIIIP c'est un indice ça ?!","Anonyme: Je te demande pas d'être bilingue mais quand même...","Anonyme: Puisque vous voyez pas ce que c'est, je vais pisser vite fait, oubliez pas ce code quand même" },
+            {"Anonyme: C'est Opressant ici, je suis dans une nouvelle salle avec des marques bizarres , depechez vous svp!","Anonyme: <<Code Nucleaire avec 4 digits>> hmmm.. c'est pas tellement ça","Anonyme: Encore une caméra ici, j'ai trouvé un marqueur et j'ai gribouille sur la camera le code <<123456>>","Anonyme: Vu que j'ai quasi qu'un terminal, pour me rassurer je vais continuer de vous écrire","Anonyme: OUI! ... ah non... Trouver un autre code de 4 digits" },
             { "Anonyme: J'ai besoin d'un code avec des chiffres et des lettres", "Anonyme: Apparement ce code ferait reference à un evenement, je sais pas si c'est un indice...", "Anonyme: Je sais pas quoi vous dire moi... Juste trouvez ce nom code", "Anonyme: Alors... Si il y avait un manuel <Comment sortir d'ici> avec ça ce serait plus simple ", "Anonyme: Je me demande combien de codes on va devoir déchiffrer surtout qu'ils deviennent de plus en plus long : 11 ici" }
-            ,{"Anonyme: C'est Opressant ici, je suis dans une nouvelle salle avec des marques bizarres , depechez vous svp!","Anonyme: <<Code Nucleaire avec 6 digits>> hmmm.. c'est pas tellement ça","Anonyme: Encore une caméra ici, j'ai trouvé un marqueur et j'ai gribouille sur la camera le code <<123456>>","Anonyme: Vu que j'ai quasi qu'un terminal, pour me rassurer je vais continuer de vous écrire","Anonyme: OUI! ... ah non... Trouver un autre code de 6 digits" }
         };
         num_enigme = PlayerPrefs.GetInt("num_enigme");
 
@@ -178,18 +178,31 @@ public class LinkInputText : MonoBehaviour {
         //ENIGME MORSE
         else if (arg0.Contains("never") && num_enigme == 4)
         {
-            Message = "Anonyme: Ah ouais le morse ...On est sur la bonne voie! Un code avec des chiffres et lettres en majuscules";
+            Message = "Anonyme: Ah ouais le morse ...On est sur la bonne voie! Un code à 4 chiffres encore";
             AttenteTyping(Message);
             PlayerPrefs.SetInt("num_enigme", 5);
         }
 
+        //ENIGME 3615
+        else if (arg0.Contains("3615") && num_enigme == 5)
+        {
+            Message = "Anonyme: ça me rappelle quelque chose ça.. enfin bref... ensuite un code avec des chiffres et lettres en majuscules";
+            AttenteTyping(Message);
+            PlayerPrefs.SetInt("num_enigme", 6);
+        }
+
         //ENIGME GAMEJAM
-        else if (arg0.Contains("3MAGWAJ8102") && num_enigme == 5)
+        else if (arg0.Contains("3MAGWAJ8102") && num_enigme == 6)
         {
             Message = "Anonyme: Aucun sens cette merde!Bref,J'entends un bruit ! ça doit vous ouvrir !!";
             Debug.Log("GAMEJAM");
             AttenteTyping(Message);
-            PlayerPrefs.SetInt("num_enigme", 6);
+            PlayerPrefs.SetInt("num_enigme", 7);
+        }
+
+        else if  (PlayerPrefs.GetInt("num_enigme") == 7)
+        {
+            SceneManager.LoadScene("GoodEnding");
         }
 
         else
