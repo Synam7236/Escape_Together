@@ -1,4 +1,5 @@
 ﻿
+<<<<<<< Updated upstream
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escape_Together", "Assembly-CSharp.csproj", "{0700C50E-A820-73DF-C6FB-B0628BFB0D77}"
@@ -6,6 +7,15 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escape_Together", "Assembly-CSharp-firstpass.csproj", "{AC9AC720-8809-1524-0404-97A57675C232}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escape_Together", "Assembly-CSharp-Editor-firstpass.csproj", "{D00522DD-0E74-56AD-0E3C-A7EC5D8D1B7E}"
+=======
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escape_Together", "Escape_Together.csproj", "{B1BC016B-AACF-4B0A-2810-72546F962244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escape_Together.Plugins", "Escape_Together.Plugins.csproj", "{E3182557-E246-C5A7-089B-A8BDF88192EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escape_Together.Editor.Plugins", "Escape_Together.Editor.Plugins.csproj", "{78AD3756-393F-4066-830E-6B99BE4F9EF0}"
+>>>>>>> Stashed changes
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +23,7 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< Updated upstream
 		{0700C50E-A820-73DF-C6FB-B0628BFB0D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0700C50E-A820-73DF-C6FB-B0628BFB0D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0700C50E-A820-73DF-C6FB-B0628BFB0D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -25,11 +36,22 @@ Global
 		{D00522DD-0E74-56AD-0E3C-A7EC5D8D1B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D00522DD-0E74-56AD-0E3C-A7EC5D8D1B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D00522DD-0E74-56AD-0E3C-A7EC5D8D1B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{B1BC016B-AACF-4B0A-2810-72546F962244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BC016B-AACF-4B0A-2810-72546F962244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BC016B-AACF-4B0A-2810-72546F962244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BC016B-AACF-4B0A-2810-72546F962244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3182557-E246-C5A7-089B-A8BDF88192EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3182557-E246-C5A7-089B-A8BDF88192EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3182557-E246-C5A7-089B-A8BDF88192EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3182557-E246-C5A7-089B-A8BDF88192EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AD3756-393F-4066-830E-6B99BE4F9EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AD3756-393F-4066-830E-6B99BE4F9EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AD3756-393F-4066-830E-6B99BE4F9EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AD3756-393F-4066-830E-6B99BE4F9EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

@@ -307,6 +307,7 @@
     <Compile Include="Assets\Scripts\DoorOpen.cs" />
     <Compile Include="Assets\Scripts\GetText.cs" />
     <Compile Include="Assets\Scripts\LinkInputText.cs" />
+    <Compile Include="Assets\Scripts\raycast.cs" />
     <Compile Include="Assets\Scripts\Recommence.cs" />
     <Compile Include="Assets\Scripts\StartMenu.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
