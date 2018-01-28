@@ -294,14 +294,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\deplacerObjet.cs" />
+    <Compile Include="Assets\Scripts\AnimTrioir.cs" />
     <Compile Include="Assets\Scripts\BlinkText_.cs" />
     <Compile Include="Assets\Scripts\ChangeSceneOrdi.cs" />
+    <Compile Include="Assets\Scripts\deplacerObjet.cs" />
     <Compile Include="Assets\Scripts\GetText.cs" />
     <Compile Include="Assets\Scripts\LinkInputText.cs" />
     <Compile Include="Assets\Scripts\Recommence.cs" />
     <Compile Include="Assets\Scripts\StartMenu.cs" />
-    <Compile Include="Assets\tirerObj.cs" />
+    <Compile Include="Assets\Scripts\tirerObj.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
