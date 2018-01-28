@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AnimTrioir : MonoBehaviour {
 
-	private bool test;
+	/*private bool test;
 
 	void Start () {
 		anim = GetComponent<Animator> ();
@@ -32,5 +32,5 @@ public class AnimTrioir : MonoBehaviour {
 
 	
 	
-	}
+	}*/
 }
