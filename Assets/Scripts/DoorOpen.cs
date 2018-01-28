@@ -8,10 +8,15 @@ public class DoorOpen : MonoBehaviour {
     public bool doorOpen = false;
     public bool DoorIsMoving = true;
     public bool startCouroutine = false;
+    public int numEnigme;
     	
 	// Update is called once per frame
 	void Update () {
-
+        if (numEnigme <= PlayerPrefs.GetInt("num_enigme"))
+        {
+            //Debug.Log("TRUE");
+            doorOpen = true;
+        }
         if(doorOpen == true)
         {
             if (DoorIsMoving == true)
