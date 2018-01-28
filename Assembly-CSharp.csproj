@@ -51,11 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AnimTrioir.cs" />
      <Compile Include="Assets\Scripts\BlinkText_.cs" />
      <Compile Include="Assets\Scripts\ChangeSceneOrdi.cs" />
+     <Compile Include="Assets\Scripts\deplacerObjet.cs" />
+     <Compile Include="Assets\Scripts\DoorOpen.cs" />
      <Compile Include="Assets\Scripts\GetText.cs" />
      <Compile Include="Assets\Scripts\LinkInputText.cs" />
+     <Compile Include="Assets\Scripts\Recommence.cs" />
      <Compile Include="Assets\Scripts\StartMenu.cs" />
+     <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\tirerObj.cs" />
+     <Compile Include="Assets\Scripts\TriggerTrappe.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
