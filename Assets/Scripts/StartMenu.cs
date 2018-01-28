@@ -8,8 +8,9 @@ public class StartMenu : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         PlayerPrefs.SetInt("num_enigme", 0);
-        PlayerPrefs.SetInt("karma", 50);
+        PlayerPrefs.SetInt("karma", 70);
         PlayerPrefs.SetInt("nbreInsultes", 0);
+        PlayerPrefs.SetInt("Suite", 1);
     }
 	
 	// Update is called once per frame
